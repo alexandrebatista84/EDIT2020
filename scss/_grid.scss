@@ -1,0 +1,109 @@
+
+.grid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 298px 298px 298px;
+    //background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-item1 {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #d2d2d2;
+    
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+  }
+
+  .grid-item2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #bbbbbb;
+    font-family: $secondary-font;
+    font-style: italic;
+    
+  }
+
+  .grid-item3 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #dbdbdb;
+      
+    
+  }
+
+  .grid-item4 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #606060;
+    
+  }
+
+  .grid-item5 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #cacaca;
+    
+  }
+
+  .grid-item6 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #bbbbbb;
+    
+  }
+
+  .grid-item7 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #d7d7d7;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    
+  }
+
+  .grid-item8 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #c2c2c2;
+    
+  }
+
+  .grid-item9 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #606060;
+    
+  }
+
+  .grid-item10 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #d0d0d0;
+    
+  }
