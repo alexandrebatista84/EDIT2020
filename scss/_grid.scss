@@ -4,16 +4,15 @@
     justify-content: center;    
     grid-template-columns: 300px 300px 300px 300px;
     grid-template-rows: 298px 298px 298px;
-    //background-color: #2196F3;
     padding: 10px;
     
-  }
   
   .grid-item1 {
     padding: 20px;
     font-size: 20px;
     text-align: center;
     background-color: #d2d2d2;
+    color: white;
         
     grid-row-start: 1;
     grid-row-end: 3;
@@ -35,6 +34,7 @@
     font-style: italic;
     display: flex;
     align-items: center;
+    color: white;
     
   }
 
@@ -46,6 +46,7 @@
     background-color: #dbdbdb;
     display: flex;
     align-items: center;
+    color: white;
       
     
   }
@@ -58,6 +59,7 @@
     background-color: #606060;
     display: flex;
     align-items: center;
+    color: white;
     
   }
 
@@ -69,6 +71,7 @@
     background-color: #cacaca;
     display: flex;
     align-items: center;
+    color: white;
     
   }
 
@@ -80,6 +83,7 @@
     background-color: #bbbbbb;
     display: flex;
     align-items: center;
+    color: white;
     
   }
 
@@ -95,6 +99,7 @@
     grid-column-end: 5;
     display: flex;
     align-items: center;
+    color: white;
     
   }
 
@@ -106,6 +111,7 @@
     background-color: #c2c2c2;
     display: flex;
     align-items: center;
+    color: white;
     
   }
 
@@ -117,6 +123,7 @@
     background-color: #606060;
     display: flex;
     align-items: center;
+    color: white;
     
   }
 
@@ -128,5 +135,7 @@
     background-color: #d0d0d0;
     display: flex;
     align-items: center;
+    color: white;
     
   }
+}
