@@ -1,0 +1,66 @@
+.signup{
+    .wrapper{
+        h2{
+            margin-top: 140px;
+            font-family: $primary-font;
+            font-size: 36px;
+            font-weight: 600;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        h3{
+            font-family: $secondary-font;
+            font-size: 18px;
+            font-style: italic;
+            text-align: center;
+            margin-top: 18px;
+            margin-bottom: 54px;
+            
+        }
+
+    
+        
+        .form{
+            text-align: center;
+            p{
+                max-width: 50%;
+                width: 100%;
+                text-align: left;
+                color: #808080;
+                font-family: $primary-font;
+                font-size: 14px;
+                font-style: italic;
+                width: 460px;
+                height: 53px;
+                border: 1px solid grey;
+                vertical-align: middle;
+                padding-top: 20px;
+                padding-left: 20px;
+                
+            }
+
+            button{
+                max-width: 50%;
+                width: 100%;
+                font-family: $primary-font;
+                font-size: 14px;
+                border: none;
+                background-color: #f68236;
+                color: white;
+                width: 100px;
+                height: 53px; 
+                text-align: center;
+                margin-bottom: 140px;
+                cursor: pointer;
+                
+
+            }
+            p, button{
+                display: inline-block;
+
+            }
+        }
+    }
+
+}
