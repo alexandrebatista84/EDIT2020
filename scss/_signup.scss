@@ -19,8 +19,6 @@
             
         }
 
-    
-        
         .form{
             text-align: center;
             p{
@@ -36,8 +34,7 @@
                 border: 1px solid grey;
                 vertical-align: middle;
                 padding-top: 20px;
-                padding-left: 20px;
-                
+                padding-left: 20px;                 
             }
 
             button{
@@ -61,6 +58,30 @@
 
             }
         }
+        
+    }
+    .bar{
+        max-width: 1200px;
+        height: 116px;
+        background-color: #bbbbbb;
+        margin:0 auto;
+        position: relative;
+
+        .leftarrow, .rightarrow{
+            display: inline-block;
+        }
+
+        .leftarrow{
+            position: absolute;
+            padding-top: 40px;
+        }
+
+        .rightarrow{
+            position: absolute;
+            right:0px;
+            padding-top: 40px;
+        }
+        margin-bottom: 50px;
     }
 
 }

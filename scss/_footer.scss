@@ -1,0 +1,38 @@
+.footer{
+    
+    margin-bottom: 150px;
+        .wrapper{
+            font-size: 0;
+
+        .collection, .site, .shop, .social{
+            max-width: 25%;
+            width: 100%;  
+            display: inline-block;
+            font-size: 12px;
+            vertical-align: top;   
+        }
+
+        h2{
+            font-size: 14px;
+            font-family: $primary-font;
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+
+        ul,p{
+            color: #383838;
+            line-height: 20px;
+            li{
+            
+                font-size: 12px;
+                font-family: $primary-font;
+                line-height: 20px;
+                a{
+                    color: #383838;
+                }
+                
+            }
+        }
+    }
+
+}

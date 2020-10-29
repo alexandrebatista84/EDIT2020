@@ -328,3 +328,55 @@ section {
 .signup .wrapper .form p, .signup .wrapper .form button {
   display: inline-block;
 }
+.signup .bar {
+  max-width: 1200px;
+  height: 116px;
+  background-color: #bbbbbb;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 50px;
+}
+.signup .bar .leftarrow, .signup .bar .rightarrow {
+  display: inline-block;
+}
+.signup .bar .leftarrow {
+  position: absolute;
+  padding-top: 40px;
+}
+.signup .bar .rightarrow {
+  position: absolute;
+  right: 0px;
+  padding-top: 40px;
+}
+
+.footer {
+  margin-bottom: 150px;
+}
+.footer .wrapper {
+  font-size: 0;
+}
+.footer .wrapper .collection, .footer .wrapper .site, .footer .wrapper .shop, .footer .wrapper .social {
+  max-width: 25%;
+  width: 100%;
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: top;
+}
+.footer .wrapper h2 {
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.footer .wrapper ul, .footer .wrapper p {
+  color: #383838;
+  line-height: 20px;
+}
+.footer .wrapper ul li, .footer .wrapper p li {
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+  line-height: 20px;
+}
+.footer .wrapper ul li a, .footer .wrapper p li a {
+  color: #383838;
+}
