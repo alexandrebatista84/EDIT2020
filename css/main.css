@@ -253,11 +253,11 @@ section {
   display: inline-block;
   font-family: "Lato", sans-serif;
   font-size: 14px;
-  color: #ffff32;
   vertical-align: middle;
 }
 .mainmenu .wrapper .wrapper2 ul li a {
   margin: auto 25px auto 25px;
+  color: grey;
 }
 .mainmenu .wrapper .wrapper3 {
   max-width: 30%;
@@ -274,4 +274,5 @@ section {
 }
 .mainmenu .wrapper .wrapper3 ul li a {
   margin-left: 50px;
+  color: grey;
 }
