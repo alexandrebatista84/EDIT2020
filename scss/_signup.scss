@@ -16,7 +16,7 @@
             text-align: center;
             margin-top: 18px;
             margin-bottom: 54px;
-        }
+        } 
 
         .form{
             text-align: center;
@@ -52,6 +52,7 @@
 
         .leftarrow, .rightarrow{
             display: inline-block;
+            cursor: pointer;
         }
 
         .leftarrow{
