@@ -233,7 +233,6 @@ section {
   vertical-align: middle;
 }
 .mainmenu .wrapper h2 {
-  color: white;
   background-color: black;
   height: 42px;
   line-height: 42px;
@@ -242,6 +241,10 @@ section {
   font-size: 14px;
   margin: 35px auto auto 0px;
   text-align: center;
+  cursor: pointer;
+}
+.mainmenu .wrapper h2 a {
+  color: white;
 }
 .mainmenu .wrapper .wrapper2 {
   max-width: calc(70% - 42px);
