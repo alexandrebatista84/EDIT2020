@@ -79,21 +79,21 @@ section {
   margin: 0 auto;
 }
 
-.hero h2 {
+.hero .wrapper h2 {
   text-align: center;
   font-weight: 400;
   font-size: 72px;
   margin: 140px auto 20px auto;
   text-transform: uppercase;
 }
-.hero p {
+.hero .wrapper p {
   text-align: center;
   font-size: 24px;
   margin: 20px auto 30px auto;
   font-family: "Georgia";
   font-style: italic;
 }
-.hero button {
+.hero .wrapper button {
   display: flex;
   text-align: center;
   margin: 40px auto 150px auto;
@@ -279,6 +279,21 @@ section {
   margin-left: 50px;
   color: grey;
 }
+.mainmenu .wrapper .wrapper3 ul li .login::before {
+  content: url("../img/user.png");
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.mainmenu .wrapper .wrapper3 ul li .basket::before {
+  content: url("../img/basket.png");
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.mainmenu .wrapper .wrapper3 ul li .search::after {
+  content: url("../img/search.png");
+}
 
 .signup .wrapper h2 {
   margin-top: 140px;
@@ -369,7 +384,6 @@ section {
   color: #383838;
 }
 .footer .wrapper .social img {
-  background-color: #bbbbbb;
   cursor: pointer;
   margin-right: 10px;
   margin-top: 10px;
