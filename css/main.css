@@ -117,7 +117,8 @@ section {
 }
 .grid .grid-item1 {
   padding: 20px;
-  font-size: 20px;
+  font-size: 24px;
+  font-weight: bold;
   background-color: #d2d2d2;
   color: white;
   grid-row-start: 1;
@@ -129,9 +130,16 @@ section {
   align-items: center;
   text-align: center;
 }
+.grid .grid-item1 li:nth-child(2) {
+  font-style: "Georgia";
+  font-size: 18px;
+  font-style: italic;
+  font-weight: normal;
+}
 .grid .grid-item2 {
   padding: 20px;
   font-size: 14px;
+  line-height: 20px;
   background-color: #bbbbbb;
   font-family: "Georgia";
   font-style: italic;
@@ -146,7 +154,8 @@ section {
 }
 .grid .grid-item4 {
   padding: 20px;
-  font-size: 20px;
+  font-size: 24px;
+  font-weight: bold;
   background-color: #606060;
   color: white;
   display: flex;
@@ -154,9 +163,16 @@ section {
   align-items: center;
   text-align: center;
 }
+.grid .grid-item4 li:nth-child(2) {
+  font-style: "Georgia";
+  font-size: 18px;
+  font-style: italic;
+  font-weight: normal;
+}
 .grid .grid-item5 {
   padding: 20px;
-  font-size: 30px;
+  font-size: 24px;
+  font-weight: bold;
   background-color: #cacaca;
   color: white;
   display: flex;
@@ -164,9 +180,16 @@ section {
   align-items: center;
   text-align: center;
 }
+.grid .grid-item5 li:nth-child(2) {
+  font-style: "Georgia";
+  font-size: 18px;
+  font-style: italic;
+  font-weight: normal;
+}
 .grid .grid-item6 {
   padding: 20px;
   font-size: 14px;
+  line-height: 20px;
   background-color: #bbbbbb;
   font-family: "Georgia";
   color: white;
@@ -178,6 +201,7 @@ section {
 .grid .grid-item7 {
   padding: 20px;
   font-size: 24px;
+  font-weight: bold;
   background-color: #d7d7d7;
   font-family: "Lato", sans-serif;
   font-style: bold;
@@ -191,12 +215,19 @@ section {
   align-items: center;
   text-align: center;
 }
+.grid .grid-item7 li:nth-child(2) {
+  font-style: "Georgia";
+  font-size: 18px;
+  font-style: italic;
+  font-weight: normal;
+}
 .grid .grid-item8 {
   background-color: #c2c2c2;
 }
 .grid .grid-item9 {
   padding: 20px;
   font-size: 24px;
+  font-weight: bold;
   background-color: #606060;
   color: white;
   display: flex;
@@ -204,15 +235,28 @@ section {
   align-items: center;
   text-align: center;
 }
+.grid .grid-item9 li:nth-child(2) {
+  font-style: "Georgia";
+  font-size: 18px;
+  font-style: italic;
+  font-weight: normal;
+}
 .grid .grid-item10 {
   padding: 20px;
   font-size: 24px;
+  font-weight: bold;
   background-color: #d0d0d0;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+.grid .grid-item10 li:nth-child(2) {
+  font-style: "Georgia";
+  font-size: 18px;
+  font-style: italic;
+  font-weight: normal;
 }
 
 .mainmenu .wrapper {
