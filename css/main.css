@@ -86,6 +86,8 @@ section {
 @media (min-width: 0) and (max-width: 800px) {
   .hero {
     height: 100%;
+    padding-top: 200px;
+    padding-top: 200px;
   }
 }
 .hero .wrapper h2 {
@@ -125,11 +127,33 @@ section {
 }
 
 .grid {
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   display: grid;
   justify-content: center;
   grid-template-columns: 300px 300px 300px 300px;
   grid-template-rows: 298px 298px 298px;
   padding: 10px;
+}
+@media (min-width: 0) and (max-width: 1200px) {
+  .grid {
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 198px 198px 198px;
+  }
+}
+@media (min-width: 0) and (max-width: 800px) {
+  .grid {
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 98px 98px 98px;
+  }
+}
+@media (min-width: 320px) and (max-width: 800px) {
+  .grid {
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-rows: 98px 98px 98px;
+  }
 }
 .grid .grid-item1 {
   padding: 20px;
@@ -152,6 +176,16 @@ section {
   font-style: italic;
   font-weight: normal;
 }
+@media (min-width: 0) and (max-width: 800px) {
+  .grid .grid-item1 li:nth-child(2) {
+    font-size: 8px;
+  }
+}
+@media (min-width: 0) and (max-width: 800px) {
+  .grid .grid-item1 {
+    font-size: 14px;
+  }
+}
 .grid .grid-item2 {
   padding: 20px;
   font-size: 14px;
@@ -164,6 +198,12 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+@media (min-width: 0) and (max-width: 800px) {
+  .grid .grid-item2 {
+    font-size: 7px;
+    line-height: 10px;
+  }
 }
 .grid .grid-item3 {
   background-color: #dbdbdb;
@@ -179,11 +219,21 @@ section {
   align-items: center;
   text-align: center;
 }
+@media (min-width: 0) and (max-width: 800px) {
+  .grid .grid-item4 {
+    font-size: 14px;
+  }
+}
 .grid .grid-item4 li:nth-child(2) {
   font-style: "Georgia";
   font-size: 18px;
   font-style: italic;
   font-weight: normal;
+}
+@media (min-width: 0) and (max-width: 800px) {
+  .grid .grid-item4 li:nth-child(2) {
+    font-size: 8px;
+  }
 }
 .grid .grid-item5 {
   padding: 20px;
@@ -196,11 +246,21 @@ section {
   align-items: center;
   text-align: center;
 }
+@media (min-width: 0) and (max-width: 800px) {
+  .grid .grid-item5 {
+    font-size: 14px;
+  }
+}
 .grid .grid-item5 li:nth-child(2) {
   font-style: "Georgia";
   font-size: 18px;
   font-style: italic;
   font-weight: normal;
+}
+@media (min-width: 0) and (max-width: 800px) {
+  .grid .grid-item5 li:nth-child(2) {
+    font-size: 8px;
+  }
 }
 .grid .grid-item6 {
   padding: 20px;
@@ -213,6 +273,12 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+@media (min-width: 0) and (max-width: 800px) {
+  .grid .grid-item6 {
+    font-size: 7px;
+    line-height: 10px;
+  }
 }
 .grid .grid-item7 {
   padding: 20px;
@@ -231,11 +297,21 @@ section {
   align-items: center;
   text-align: center;
 }
+@media (min-width: 0) and (max-width: 800px) {
+  .grid .grid-item7 {
+    font-size: 14px;
+  }
+}
 .grid .grid-item7 li:nth-child(2) {
   font-style: "Georgia";
   font-size: 18px;
   font-style: italic;
   font-weight: normal;
+}
+@media (min-width: 0) and (max-width: 800px) {
+  .grid .grid-item7 li:nth-child(2) {
+    font-size: 8px;
+  }
 }
 .grid .grid-item8 {
   background-color: #c2c2c2;
@@ -251,11 +327,21 @@ section {
   align-items: center;
   text-align: center;
 }
+@media (min-width: 0) and (max-width: 800px) {
+  .grid .grid-item9 {
+    font-size: 14px;
+  }
+}
 .grid .grid-item9 li:nth-child(2) {
   font-style: "Georgia";
   font-size: 18px;
   font-style: italic;
   font-weight: normal;
+}
+@media (min-width: 0) and (max-width: 800px) {
+  .grid .grid-item9 li:nth-child(2) {
+    font-size: 8px;
+  }
 }
 .grid .grid-item10 {
   padding: 20px;
@@ -268,11 +354,21 @@ section {
   align-items: center;
   text-align: center;
 }
+@media (min-width: 0) and (max-width: 800px) {
+  .grid .grid-item10 {
+    font-size: 14px;
+  }
+}
 .grid .grid-item10 li:nth-child(2) {
   font-style: "Georgia";
   font-size: 18px;
   font-style: italic;
   font-weight: normal;
+}
+@media (min-width: 0) and (max-width: 800px) {
+  .grid .grid-item10 li:nth-child(2) {
+    font-size: 8px;
+  }
 }
 
 .mainmenu {
@@ -284,7 +380,7 @@ section {
 .mainmenu .wrapper h2, .mainmenu .wrapper .wrapper2, .mainmenu .wrapper .wrapper3 {
   display: inline-block;
 }
-.mainmenu .wrapper h2 {
+.mainmenu .wrapper .burger {
   background-color: black;
   height: 42px;
   line-height: 42px;
@@ -293,8 +389,6 @@ section {
   font-size: 14px;
   text-align: center;
   cursor: pointer;
-}
-.mainmenu .wrapper h2 a {
   color: white;
 }
 .mainmenu .wrapper .wrapper2 {
@@ -302,11 +396,32 @@ section {
   width: 100%;
   padding-top: 30px;
 }
+@media (min-width: 0) and (max-width: 800px) {
+  .mainmenu .wrapper .wrapper2 {
+    position: absolute;
+    left: 0;
+    height: 12vh;
+    top: 92px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    transform: translateX(10%);
+    transition: transform 0.5s ease-in;
+    line-height: 20px;
+  }
+}
 .mainmenu .wrapper .wrapper2 ul li {
   display: inline-block;
   font-family: "Lato", sans-serif;
   font-size: 14px;
   vertical-align: middle;
+}
+@media (min-width: 0) and (max-width: 800px) {
+  .mainmenu .wrapper .wrapper2 ul li {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .mainmenu .wrapper .wrapper2 ul li a {
   margin: auto 20px auto 20px;
@@ -317,6 +432,12 @@ section {
   width: 100%;
   text-align: right;
   padding-top: 30px;
+}
+@media (min-width: 0) and (max-width: 800px) {
+  .mainmenu .wrapper .wrapper3 {
+    max-width: calc(100% - 42px);
+    width: 100%;
+  }
 }
 .mainmenu .wrapper .wrapper3 ul li {
   display: inline-block;
@@ -360,7 +481,8 @@ section {
   text-align: center;
 }
 .signup .wrapper .form input {
-  width: 460px;
+  max-width: 460px;
+  width: 100%;
   height: 53px;
 }
 .signup .wrapper .form button {
