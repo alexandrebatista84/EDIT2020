@@ -79,12 +79,26 @@ section {
   margin: 0 auto;
 }
 
+.hero {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+@media (min-width: 0) and (max-width: 800px) {
+  .hero {
+    height: 100%;
+  }
+}
 .hero .wrapper h2 {
   text-align: center;
   font-weight: 400;
   font-size: 72px;
-  margin: 140px auto 20px auto;
+  margin-bottom: 20px;
   text-transform: uppercase;
+}
+@media (min-width: 0) and (max-width: 800px) {
+  .hero .wrapper h2 {
+    font-size: 60px;
+  }
 }
 .hero .wrapper p {
   text-align: center;
@@ -93,19 +107,21 @@ section {
   font-family: "Georgia";
   font-style: italic;
 }
+@media (min-width: 0) and (max-width: 800px) {
+  .hero .wrapper p {
+    font-size: 14px;
+  }
+}
 .hero .wrapper button {
-  display: flex;
-  text-align: center;
-  margin: 40px auto 150px auto;
+  display: block;
+  margin: auto;
   font-size: 14px;
   text-transform: uppercase;
   color: #676767;
   background-color: white;
   padding: 20px 32px;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
   border: 1px solid #676767;
+  cursor: pointer;
 }
 
 .grid {
@@ -259,12 +275,14 @@ section {
   font-weight: normal;
 }
 
+.mainmenu {
+  padding-top: 35px;
+}
 .mainmenu .wrapper {
   font-size: 0;
 }
 .mainmenu .wrapper h2, .mainmenu .wrapper .wrapper2, .mainmenu .wrapper .wrapper3 {
   display: inline-block;
-  vertical-align: middle;
 }
 .mainmenu .wrapper h2 {
   background-color: black;
@@ -273,7 +291,6 @@ section {
   width: 42px;
   font-family: "Lato", sans-serif;
   font-size: 14px;
-  margin: 35px auto auto 0px;
   text-align: center;
   cursor: pointer;
 }
@@ -283,7 +300,6 @@ section {
 .mainmenu .wrapper .wrapper2 {
   max-width: calc(70% - 42px);
   width: 100%;
-  padding-left: 58px;
   padding-top: 30px;
 }
 .mainmenu .wrapper .wrapper2 ul li {
@@ -293,7 +309,7 @@ section {
   vertical-align: middle;
 }
 .mainmenu .wrapper .wrapper2 ul li a {
-  margin: auto 25px auto 25px;
+  margin: auto 20px auto 20px;
   color: grey;
 }
 .mainmenu .wrapper .wrapper3 {
@@ -310,23 +326,18 @@ section {
   vertical-align: middle;
 }
 .mainmenu .wrapper .wrapper3 ul li a {
-  margin-left: 50px;
+  margin-left: 20px;
   color: grey;
 }
 .mainmenu .wrapper .wrapper3 ul li .login::before {
   content: url("../img/user.png");
-  display: inline-block;
   margin-right: 10px;
   vertical-align: middle;
 }
 .mainmenu .wrapper .wrapper3 ul li .basket::before {
   content: url("../img/basket.png");
-  display: inline-block;
   margin-right: 10px;
   vertical-align: middle;
-}
-.mainmenu .wrapper .wrapper3 ul li .search::after {
-  content: url("../img/search.png");
 }
 
 .signup .wrapper h2 {
