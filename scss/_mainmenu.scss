@@ -1,107 +1,121 @@
 .mainmenu{
     padding-top: 35px;
+    
     .wrapper{
         font-size: 0;
+        display: flex;
 
         h2, .wrapper2, .wrapper3{
-            display: inline-block;
+            display: flex;
         }
 
-        .burger{
+        h2{
             background-color: black;
             height: 42px;
-            line-height: 42px;
             width: 42px;
             font-family: $primary-font;
             font-size: 14px;
-            text-align: center;
+            justify-content: center;
+            align-items: center;
             cursor: pointer;
             color: white;
-        
         }
            
         .wrapper2{
-            
             max-width: calc(70% - 42px);
             width: 100%;
-            padding-top: 30px;
+            align-items: center;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
 
-            @include mq(0, 800px) {
-                position: absolute;
-                left: 0;
-                height: 12vh;
-                top: 92px;
-                background-color: white;
-                align-items: center;
-                justify-content: space-around;
-                width: 50%;
-                transform: translateX(10%);
-                transition: transform 0.5s ease-in;
-                line-height: 20px;
-                
+        .wrapper2{
+            @include mq(0, 1024px) {
+                max-width: calc(60% - 42px);
+                width: 100%;
+                padding-left: 15px;
+                padding-right: 0px;
             }
-            
-            ul{
-                li{
-                    display: inline-block;
-                    font-family: $primary-font;
-                    font-size: 14px;
-                    vertical-align: middle;
+        }
 
-                @include mq(0, 800px) {
-                    display: flex;
-                    flex-direction: column;
-                }
-                    
-                    a{
-                        margin: auto 20px auto 20px;
-                        color: grey;
-                    }
-                }
+        .wrapper2 ul{
+            display:flex;
+        }        
 
+        .wrapper2 ul{
+            @include mq(0, 1024px) {
+                flex-direction: column;
+            }
+        }
+
+        .wrapper2 li a{
+            font-family: $primary-font;
+            font-size: 14px;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: grey;
+        }
+        
+        .wrapper2 li{
+            @include mq(0, 1024px) {
+                padding-top: 20px;
             }
         }
         
         .wrapper3{
-            
             max-width: 30%;
             width: 100%;
-            text-align: right;
-            padding-top: 30px;
-
-            @include mq(0, 800px) {
-				max-width: calc(100% - 42px);
-                width: 100%;
-			}
-
-            ul{
-                li{
-                    display: inline-block;
-                    font-family: $primary-font;
-                    font-size: 14px;
-                    color: grey;
-                    vertical-align: middle;
-                    
-                     a{
-                        margin-left: 20px;
-                        color: grey;
-                    }
-                    & .login::before{
-                        content: url("../img/user.png");
-                        margin-right: 10px;
-                        vertical-align: middle;
-                    }
-                    & .basket::before{
-                        content: url("../img/basket.png");
-                        margin-right: 10px;
-                        vertical-align: middle;
-                    }
-                   
-                }
-            }
-           
+            align-items: center;
         }
 
-    
-    }
+        .wrapper3{
+            @include mq(0, 1024px) {
+                max-width: 40%;
+                width: 100%;
+            }
+        }
+
+        .wrapper3 ul{
+            display:flex;
+        }
+        
+        .wrapper3 ul{
+            @include mq(0, 1024px) {
+                flex-direction: column;
+            }
+        }
+        
+        .wrapper3 li{
+            @include mq(0, 1024px) {
+                padding-top: 20px;
+            }
+        }
+        
+        .wrapper3 li a{ 
+            font-family: $primary-font;
+            font-size: 14px;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: grey;
+        }  
+        
+        .wrapper3 li a{
+            @include mq(0, 1024px) {
+                padding-left: 0px;
+            }
+        }
+
+        & .login::before{
+            content: url("../img/user.png");
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        & .basket::before{
+            content: url("../img/basket.png");
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+    }        
 }

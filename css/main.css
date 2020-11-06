@@ -80,14 +80,12 @@ section {
 }
 
 .hero {
-  padding-top: 140px;
-  padding-bottom: 140px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 @media (min-width: 0) and (max-width: 800px) {
   .hero {
-    height: 100%;
-    padding-top: 200px;
-    padding-top: 200px;
+    padding-top: 150px;
   }
 }
 .hero .wrapper h2 {
@@ -137,16 +135,10 @@ section {
   grid-template-rows: 298px 298px 298px;
   padding: 10px;
 }
-@media (min-width: 0) and (max-width: 1200px) {
+@media (min-width: 800px) and (max-width: 1200px) {
   .grid {
     grid-template-columns: 200px 200px 200px 200px;
     grid-template-rows: 198px 198px 198px;
-  }
-}
-@media (min-width: 0) and (max-width: 800px) {
-  .grid {
-    grid-template-columns: 100px 100px 100px 100px;
-    grid-template-rows: 98px 98px 98px;
   }
 }
 @media (min-width: 320px) and (max-width: 800px) {
@@ -376,86 +368,99 @@ section {
 }
 .mainmenu .wrapper {
   font-size: 0;
+  display: flex;
 }
 .mainmenu .wrapper h2, .mainmenu .wrapper .wrapper2, .mainmenu .wrapper .wrapper3 {
-  display: inline-block;
+  display: flex;
 }
-.mainmenu .wrapper .burger {
+.mainmenu .wrapper h2 {
   background-color: black;
   height: 42px;
-  line-height: 42px;
   width: 42px;
   font-family: "Lato", sans-serif;
   font-size: 14px;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   color: white;
 }
 .mainmenu .wrapper .wrapper2 {
   max-width: calc(70% - 42px);
   width: 100%;
-  padding-top: 30px;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
 }
-@media (min-width: 0) and (max-width: 800px) {
+@media (min-width: 0) and (max-width: 1024px) {
   .mainmenu .wrapper .wrapper2 {
-    position: absolute;
-    left: 0;
-    height: 12vh;
-    top: 92px;
-    background-color: white;
-    align-items: center;
-    justify-content: space-around;
-    width: 50%;
-    transform: translateX(10%);
-    transition: transform 0.5s ease-in;
-    line-height: 20px;
+    max-width: calc(60% - 42px);
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 0px;
   }
 }
-.mainmenu .wrapper .wrapper2 ul li {
-  display: inline-block;
-  font-family: "Lato", sans-serif;
-  font-size: 14px;
-  vertical-align: middle;
+.mainmenu .wrapper .wrapper2 ul {
+  display: flex;
 }
-@media (min-width: 0) and (max-width: 800px) {
-  .mainmenu .wrapper .wrapper2 ul li {
-    display: flex;
+@media (min-width: 0) and (max-width: 1024px) {
+  .mainmenu .wrapper .wrapper2 ul {
     flex-direction: column;
   }
 }
-.mainmenu .wrapper .wrapper2 ul li a {
-  margin: auto 20px auto 20px;
+.mainmenu .wrapper .wrapper2 li a {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
   color: grey;
+}
+@media (min-width: 0) and (max-width: 1024px) {
+  .mainmenu .wrapper .wrapper2 li {
+    padding-top: 20px;
+  }
 }
 .mainmenu .wrapper .wrapper3 {
   max-width: 30%;
   width: 100%;
-  text-align: right;
-  padding-top: 30px;
+  align-items: center;
 }
-@media (min-width: 0) and (max-width: 800px) {
+@media (min-width: 0) and (max-width: 1024px) {
   .mainmenu .wrapper .wrapper3 {
-    max-width: calc(100% - 42px);
+    max-width: 40%;
     width: 100%;
   }
 }
-.mainmenu .wrapper .wrapper3 ul li {
-  display: inline-block;
+.mainmenu .wrapper .wrapper3 ul {
+  display: flex;
+}
+@media (min-width: 0) and (max-width: 1024px) {
+  .mainmenu .wrapper .wrapper3 ul {
+    flex-direction: column;
+  }
+}
+@media (min-width: 0) and (max-width: 1024px) {
+  .mainmenu .wrapper .wrapper3 li {
+    padding-top: 20px;
+  }
+}
+.mainmenu .wrapper .wrapper3 li a {
   font-family: "Lato", sans-serif;
   font-size: 14px;
-  color: grey;
-  vertical-align: middle;
-}
-.mainmenu .wrapper .wrapper3 ul li a {
-  margin-left: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   color: grey;
 }
-.mainmenu .wrapper .wrapper3 ul li .login::before {
+@media (min-width: 0) and (max-width: 1024px) {
+  .mainmenu .wrapper .wrapper3 li a {
+    padding-left: 0px;
+  }
+}
+.mainmenu .wrapper .login::before {
   content: url("../img/user.png");
   margin-right: 10px;
   vertical-align: middle;
 }
-.mainmenu .wrapper .wrapper3 ul li .basket::before {
+.mainmenu .wrapper .basket::before {
   content: url("../img/basket.png");
   margin-right: 10px;
   vertical-align: middle;
