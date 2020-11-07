@@ -68,7 +68,7 @@
             align-items: center;
             justify-content: flex-end;
         }
-        
+
         .wrapper3{
             @include mq(0, 1024px) {
                 max-width: 40%;
@@ -85,8 +85,7 @@
         
         .wrapper3 ul{
             @include mq(0, 1024px) {
-                flex-direction: column;
-                
+                flex-direction: column; 
             }
         }
         
@@ -136,7 +135,7 @@
             border: 2px solid grey;
             font-size: 12px;
             background-image: url('../img/search.png');
-            background-position: 170px 10px; 
+            background-position: 160px 10px; 
             background-repeat: no-repeat;
             padding: 20px 20px 20px 20px;
         }
