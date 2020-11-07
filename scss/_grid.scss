@@ -1,5 +1,4 @@
-
-.grid {
+.grid{
     max-width: 1200px;
     width: 100%;
     margin-left: auto;
@@ -9,17 +8,16 @@
     grid-template-columns: 300px 300px 300px 300px;
     grid-template-rows: 298px 298px 298px;
     padding: 10px;
-    @include mq(800px, 1200px) {
-      grid-template-columns: 200px 200px 200px 200px;
-      grid-template-rows: 198px 198px 198px;
-      
+
+    @include mq(0px, 1200px) {
+      grid-template-columns: 300px 300px;
+      grid-template-rows: 298px 298px 298px 298px 298px 298px;
     }
 
-    @include mq(320px, 800px) {
-      grid-template-columns: 80px 80px 80px 80px;
-      grid-template-rows: 98px 98px 98px;
+    @include mq(0px, 600px) {
+      grid-template-columns: 200px 200px;
+      grid-template-rows: 198px 198px 198px 198px 198px 198px;
     }
-    
   
   .grid-item1 {
     padding: 20px;
@@ -43,16 +41,7 @@
       font-size: 18px;
       font-style: italic;
       font-weight: normal;
-      @include mq(0, 800px) {
-        font-size: 8px;
-      }
     }
-
-    @include mq(0, 800px) {
-      font-size: 14px;
-    }
-    
-    
   }
 
   .grid-item2 {
@@ -68,14 +57,17 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    @include mq(0, 800px) {
-      font-size: 7px;
-      line-height: 10px;
-    }
   }
 
   .grid-item3 {
     background-color: #dbdbdb;
+    @include mq (0,1200px){
+      grid-row-start: 4;
+      grid-row-end: 5;
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+    
   }
 
   .grid-item4 {
@@ -90,8 +82,11 @@
     align-items: center;
     text-align: center;
 
-    @include mq(0, 800px) {
-      font-size: 14px;
+    @include mq (0,1200px){
+      grid-row-start: 4;
+      grid-row-end: 5;
+      grid-column-start: 2;
+      grid-column-end: 3;
     }
 
     li:nth-child(2){
@@ -99,10 +94,6 @@
       font-size: 18px;
       font-style: italic;
       font-weight: normal;
-
-      @include mq(0, 800px) {
-        font-size: 8px;
-      }
     }
     
   }
@@ -119,8 +110,11 @@
     align-items: center;
     text-align: center;
 
-    @include mq(0, 800px) {
-      font-size: 14px;
+    @include mq (0,1200px){
+      grid-row-start: 2;
+      grid-row-end: 3;
+      grid-column-start: 2;
+      grid-column-end: 3;
     }
 
     li:nth-child(2){
@@ -128,10 +122,6 @@
       font-size: 18px;
       font-style: italic;
       font-weight: normal;
-
-      @include mq(0, 800px) {
-        font-size: 8px;
-      }
     }
     
   }
@@ -149,9 +139,11 @@
     align-items: center;
     text-align: center;
 
-    @include mq(0, 800px) {
-      font-size: 7px;
-      line-height: 10px;
+    @include mq (0,1200px){
+      grid-row-start: 5;
+      grid-row-end: 6;
+      grid-column-start: 1;
+      grid-column-end: 2;
     }
     
   }
@@ -169,32 +161,37 @@
     grid-row-end: 4;
     grid-column-start: 4;
     grid-column-end: 5;
-    
 
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 
-    @include mq(0, 800px) {
-      font-size: 14px;
+    @include mq (0,1200px){
+      grid-row-start: 5;
+      grid-row-end: 7;
+      grid-column-start: 2;
+      grid-column-end: 3;
     }
+
 
     li:nth-child(2){
       font-style: $secondary-font;
       font-size: 18px;
       font-style: italic;
       font-weight: normal;
-
-      @include mq(0, 800px) {
-        font-size: 8px;
-      }
     }
     
   }
 
   .grid-item8 {
     background-color: #c2c2c2;
+    @include mq (0,1200px){
+      grid-row-start: 3;
+      grid-row-end: 4;
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
   }
 
   .grid-item9 {
@@ -209,8 +206,11 @@
     align-items: center;
     text-align: center;
 
-    @include mq(0, 800px) {
-      font-size: 14px;
+    @include mq (0,1200px){
+      grid-row-start: 3;
+      grid-row-end: 4;
+      grid-column-start: 2;
+      grid-column-end: 3;
     }
 
     li:nth-child(2){
@@ -218,10 +218,6 @@
       font-size: 18px;
       font-style: italic;
       font-weight: normal;
-
-      @include mq(0, 800px) {
-        font-size: 8px;
-      }
     }
     
   }
@@ -238,8 +234,11 @@
     align-items: center;
     text-align: center;
 
-    @include mq(0, 800px) {
-      font-size: 14px;
+    @include mq (0,1200px){
+      grid-row-start: 6;
+      grid-row-end: 7;
+      grid-column-start: 1;
+      grid-column-end: 2;
     }
 
     li:nth-child(2){
@@ -247,11 +246,6 @@
       font-size: 18px;
       font-style: italic;
       font-weight: normal;
-
-      @include mq(0, 800px) {
-        font-size: 8px;
-      }
     }
-    
   }
 }

@@ -1,0 +1,15 @@
+.hbar{
+    margin-bottom: 60px;
+    .wrapper{
+        text-align: center;
+        background-color: #f1f1f1;
+        
+        h2{
+            height: 44px;
+            line-height: 44px;
+            font-size: 14px;
+            font-family: $primary-font;
+            color: #7e7e7e;
+        }
+    }
+}
