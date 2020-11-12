@@ -16,6 +16,7 @@
 			font-size: 72px;
 			margin-bottom: 20px;
 			text-transform: uppercase;
+			color: #303030;
 			@include mq(0, 800px) {
 				font-size: 60px;
 			}
@@ -27,6 +28,7 @@
 			margin: 20px auto 30px auto;
 			font-family: $secondary-font;
 			font-style: italic;
+			color: #606060;
 			@include mq(0, 800px) {
 				font-size: 14px;
 			}

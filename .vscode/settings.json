@@ -1,0 +1,21 @@
+{
+    "liveSassCompile.settings.formats": [
+
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css"
+        }
+    ],
+    "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.autoprefix": [
+        null
+    ],
+    "liveSassCompile.settings.includeItems": [],
+    "liveSassCompile.settings.excludeList": [
+        "**/node_modules/**",
+        ".vscode/**"
+        
+    ],
+    "easysass.targetDir": "/css"
+}

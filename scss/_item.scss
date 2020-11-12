@@ -1,0 +1,204 @@
+.item{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    .wrapper{
+
+        .line{
+            display: flex;
+            max-width: 1200px;
+            width: 100%;
+            align-items: center;
+            border-top: 1px solid #e5e5e5;
+            border-bottom: 1px solid #e5e5e5;
+            padding-bottom: 17px;
+            @include mq(0,800px){
+                display: block;
+                text-align: center;
+            }
+
+            .cat:nth-child(1) img{
+                max-width: 100px;
+                max-height: 100px;
+                width: 100%;
+                height: 100%;
+            }
+
+            .cat:nth-child(1){
+
+                max-width: 10%;
+                width: 100%; 
+                @include mq(0,800px){
+                    max-width: 100%;
+                    width: 100%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+
+            .cat:nth-child(2){
+                max-width: 14%;
+                width: 100%; 
+                @include mq(0,800px){
+                    max-width: 100%;
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+
+            .cat:nth-child(2) li:nth-child(1)
+            {
+                font-family: $primary-font;
+                font-weight: bold;
+                font-size: 14px;
+                color: #303030;
+            }
+
+            .cat:nth-child(2) li:nth-child(2)
+            {
+                font-family: $primary-font;
+                line-height: 20px;
+                font-style: italic;
+                font-size: 12px;
+                color: #606060;
+            }
+
+            .cat:nth-child(3){
+                text-align: right;
+                max-width: 32%;
+                width: 100%; 
+                font-family: $primary-font;
+                font-size: 14px;
+                color: #303030;
+                @include mq(0,800px){
+                    display: none;
+                }
+            }
+
+            .cat:nth-child(4)
+            {
+                text-align: right;
+                max-width: 12%;
+                width: 100%; 
+                font-family: $primary-font;
+                font-size: 14px;
+                color: #303030;
+                @include mq(0,800px){
+                    display: none;
+                }
+            }
+
+            .cat:nth-child(5){
+                text-align: right;
+                max-width: 10%;
+                width: 100%; 
+                font-family: $primary-font;
+                font-size: 14px;
+                color: #303030;
+                @include mq(0,800px){
+                    display: none;
+                }
+            }
+
+            .cat:nth-child(6){
+                text-align: right;
+                max-width: 13%;
+                width: 100%; 
+                font-family: $primary-font;
+                font-size: 14px;
+                color: #303030;
+                @include mq(0,800px){
+                    display: none;
+                }
+            }
+
+            .cat:nth-child(7){
+                text-align: right;
+                padding-right: 25px;
+                max-width: 9%;
+                width: 100%; 
+                font-family: $primary-font;
+                font-size: 14px;
+                color: #303030;
+                @include mq(0,800px){
+                    display: none;
+                }
+            }
+
+            .cat:nth-child(8){
+                display: none;
+                text-align: right;
+                max-width: 100%;
+                width: 100%; 
+                font-family: $primary-font;
+                font-size: 14px;
+                color: #303030;
+                @include mq(0,800px){
+                    display: flex;
+                    justify-content: center;
+                      
+                }
+            }
+
+            .cat:nth-child(9){
+                display: none;
+                text-align: right;
+                max-width: 100%;
+                width: 100%; 
+                font-family: $primary-font;
+                font-size: 14px;
+                color: #303030;
+                @include mq(0,800px){
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+
+            .cat:nth-child(10){
+                display: none;
+                text-align: right;
+                max-width: 100%;
+                width: 100%; 
+                font-family: $primary-font;
+                font-size: 14px;
+                color: #303030;
+                @include mq(0,800px){
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+
+            .cat:nth-child(11){
+                display: none;
+                text-align: right;
+                max-width: 100%;
+                width: 100%; 
+                font-family: $primary-font;
+                font-size: 14px;
+                color: #303030;
+                @include mq(0,800px){
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+
+            .cat:nth-child(12){
+                display: none;
+                text-align: right;
+                max-width: 100%;
+                width: 100%; 
+                font-family: $primary-font;
+                font-size: 14px;
+                color: #303030;
+                @include mq(0,800px){
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+
+
+
+        }
+        
+
+    }
+}

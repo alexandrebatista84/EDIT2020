@@ -321,6 +321,8 @@ section {
 @media (min-width: 0) and (max-width: 1024px) {
   .clothes .wrapper .clothes_row .cloth {
     margin: auto auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 .clothes .wrapper .clothes_row .cloth h2 {
@@ -385,6 +387,7 @@ section {
   font-size: 72px;
   margin-bottom: 20px;
   text-transform: uppercase;
+  color: #303030;
 }
 @media (min-width: 0) and (max-width: 800px) {
   .hero .wrapper h2 {
@@ -397,6 +400,7 @@ section {
   margin: 20px auto 30px auto;
   font-family: "Georgia";
   font-style: italic;
+  color: #606060;
 }
 @media (min-width: 0) and (max-width: 800px) {
   .hero .wrapper p {
@@ -549,8 +553,6 @@ section {
 .hbar .wrapper {
   text-align: center;
   background-color: #f1f1f1;
-}
-.hbar .wrapper h2 {
   height: 44px;
   line-height: 44px;
   font-size: 14px;

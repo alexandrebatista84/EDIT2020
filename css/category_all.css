@@ -334,6 +334,8 @@ section {
 @media (min-width: 0) and (max-width: 1024px) {
   .clothes .wrapper .clothes_row .cloth {
     margin: auto auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 .clothes .wrapper .clothes_row .cloth h2 {

@@ -1,0 +1,38 @@
+.totalprice{
+    margin-bottom: 120px;
+    
+
+    .wrapper{
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: #f9f9f9;
+        height: 57px;
+        @include mq(0,800px){
+            justify-content: center;
+        }
+
+        p:nth-child(1)
+        {
+            font-family: $primary-font;
+            font-weight: bold;
+            font-size: 14px;
+            color: #303030;
+        }
+
+        p:nth-child(2)
+        {
+            font-family: $primary-font;
+            font-weight: bold;
+            font-size: 14px;
+            color: #f68236;
+            padding-right: 100px;
+            padding-left: 15px;
+            @include mq(0,800px){
+                padding-right: 0px;
+            }
+        }       
+
+    }
+}

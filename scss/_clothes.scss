@@ -38,12 +38,15 @@
       @include mq (0, 1024px){
         flex-wrap: wrap;
         justify-content: center;
+        
       }
     }
 
     .clothes_row .cloth{
       @include mq (0, 1024px){
         margin: auto auto;
+        padding-left:15px;
+        padding-right:15px;
       }
 
 
