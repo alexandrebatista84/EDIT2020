@@ -2,75 +2,28 @@
   padding-top: 60px;
   
   .wrapper{
-    position: relative;
     
-
-    .img1{
-      display: block;
+    #imagens{
+      max-width: 280px;
       margin-left: auto;
       margin-right: auto;
-      position: relative;
-      background-size: cover;
-      top: 0;
-      left: 0;
-      max-width: 1180px;
-      width: 100%;
-      max-height: 588px;
-      height : 100%;
-    }
 
-    .img2 {
-      position: absolute;
-      bottom: 10px;
-      right: 30px;
-      border: 1px grey solid;
-      max-width: 70px;
-      width: 100%;
-      max-height: 70px;
-      height : 100%;
-      background-size: cover;
-
-      
-    }
-
-    .img3 {
-      position: absolute;
-      bottom: 90px;
-      right: 30px;
-      border: 1px grey solid;
-      max-width: 70px;
-      width: 100%;
-      max-height: 70px;
-      height : 100%;
-      background-size: cover;
-
-      @include mq(0,800px)
-      {
-        bottom: 10px;
-        right: 110px;
+      .img1, .img2, .img3, .img4{
+        max-width: 280px;
+        width: 100%;
+        max-height: 280px;
+        height : 100%;
       }
     }
+    
 
-    .img4 {
-      position: absolute;
-      bottom: 170px;
-      right: 30px;
-      border: 1px grey solid;
-      max-width: 70px;
-      width: 100%;
-      max-height: 70px;
-      height : 100%;
-      background-size: cover;
-
-      @include mq(0,800px)
-      {
-        bottom: 10px;
-        right: 190px;
-      }
+    #imagens1{
+      max-width: 480px;
+      font-size: 0px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
     }
-
-
-
   }
-  
+
 }
