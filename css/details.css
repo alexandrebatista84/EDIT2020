@@ -89,6 +89,7 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 100px;
 }
 
 .mainmenu .wrapper h2, .mainmenu .wrapper .wrapper2, .mainmenu .wrapper .wrapper3 {
@@ -318,7 +319,6 @@ section {
 .signup .bar {
   max-width: 1200px;
   height: 116px;
-  background-color: #bbbbbb;
   margin: 0 auto;
   position: relative;
   margin-bottom: 50px;
@@ -461,6 +461,11 @@ section {
   }
 }
 
+.hero .wrapper {
+  position: relative;
+  margin-bottom: 100px;
+}
+
 .hero .wrapper h2 {
   text-align: center;
   font-weight: 400;
@@ -474,6 +479,14 @@ section {
   .hero .wrapper h2 {
     font-size: 60px;
   }
+}
+
+.hero .wrapper #slide {
+  position: absolute;
+  top: -50%;
+  left: 0;
+  z-index: -1;
+  opacity: 0.7;
 }
 
 .hero .wrapper p {
