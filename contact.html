@@ -96,33 +96,42 @@
 
 	<section class="signup2">
 		<div class="wrapper">
-			<h4>TOPIC</h4>
-			<div class="form">
-				<input type="text" placeholder="Lorem ipsum" >
+			<form>
+			<label for="topic">TOPIC</label>
+			<select id="topic" name="topic" required>
+				<option value="Lorem ipsum">Lorem ipsum</option>
+				<option value="Lorem ipsum">Lorem ipsum</option>
+				<option value="Lorem ipsum">Lorem ipsum</option>
+			</select>
+
+			<div class="line">
+				
+				<div class="form1">
+					<h4>NAME</h4>
+					<input type="text" id="nome" required >
+				</div>
+				
+				<div class="form2">
+					<h4>E-MAIL</h4>
+					<input type="email" id="email" required placeholder="Enter a valid email address">
+				</div>
+
 			</div>
 
-			<h4>NAME</h4>
-			<div class="form1">
-				<input type="text" placeholder="">
-			</div>
-
-			<h4>E-MAIL</h4>
-			<div class="form2">
-				<input type="email" placeholder="">
-			</div>
-
-			<h4>MESSAGE</h4>
 			<div class="form3">
-				<input type="text" placeholder="">
-				<button>SEND</button>
+				<h4>PHONE NUMBER</h4>
+				<input type="number" id="telefone" required>
+			</div>
+			
+			<div class="form4">
+				<h4>MESSAGE</h4>
+				<textarea class="form4" id="texto" required></textarea>
 			</div>
 
+			<div id="botao"><button onclick="validation()">SEND</button></div>
+		<!-- validação de que todos os campos estão preenchidos através de javascript -->
+		</form>
 		</div>
-
-
-
-
-
 
 		<div class="bar">
 			<div class="leftarrow"><img src="./img/Arrow Thin Left.png"></div>
@@ -173,7 +182,7 @@
 		</div>
 	</section>
 
-
+	<script type="text/javascript" src="./js/validation.js"></script>
 	
 </body>
 

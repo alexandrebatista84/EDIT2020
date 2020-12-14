@@ -1,47 +1,78 @@
 .signup2{
     .wrapper{
-        
-        h2{
-            margin-top: 140px;
-            font-family: $primary-font;
-            font-size: 36px;
-            font-weight: 600;
-            text-align: center;
-            text-transform: uppercase;
+
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 580px;
+        width: 100%;
+
+        #topic{
+            display: block;
+            max-width: 580px;
+            width: 100%;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-bottom: 45px;
         }
 
-        h3{
-            font-family: $secondary-font;
-            font-size: 18px;
-            font-style: italic;
-            text-align: center;
-            margin-top: 18px;
-            margin-bottom: 54px;
-        } 
-        max-width: 580px;
-        .form{
-            text-align: center;
-            
+        .line{
+            display: flex;
+            margin-bottom: 45px;
+            .form1{
+                max-width: 290px;
+                width: 100%;
+                input{
+                    width: 280px;
+                    padding: 10px 20px;
+                }
+            }
+
+            .form2{
+                max-width: 290px;
+                width: 100%;  
+                margin-left: 20px;         
+                input{
+                    width: 280px;
+                    padding: 10px 20px;
+                    margin-right: 0;
+                }
+            }
+        }
+
+        .form3{
+            max-width: 580px;
+            width: 100%;
+            margin-bottom: 45px;
+
             input{
+                width: 580px;
+                padding: 10px 20px;
+            }
+        }
+
+            .form4{
                 max-width: 580px;
                 width: 100%;
-                height: 53px;
+                height: 300px;
+                margin-bottom: 45px;
             }
 
-            button{
-                font-family: $primary-font;
-                font-size: 14px;
-                border: none;
-                background-color: #f68236;
-                color: white;
-                width: 100px;
-                height: 53px; 
+            #botao{
                 text-align: center;
-                margin-bottom: 140px;
-                cursor: pointer;
+                button{
+                    font-family: "Lato", sans-serif;
+                    font-size: 14px;
+                    border: none;
+                    background-color: #f68236;
+                    color: white;
+                    width: 193px;
+                    height: 53px;
+                    text-align: center;
+                    margin-bottom: 145px;
+                    cursor: pointer;
+                }
             }
-            
-        }
+        
         
     }
     

@@ -202,9 +202,10 @@
 
 
 			<div class="line">
+				<form >
 				<h4>SELECT DELIVERY METHOD</h4>
 				<label for="dmethod"></label>
-				<select id="dmethod" name="dmethod">
+				<select id="dmethod" name="dmethod" required>
 					<option value="dhl">DHL International - €15,00</option>
 					<option value="upx">UPS International - €12,00</option>
 					<option value="fedex">FedEx International - €14,00</option>
@@ -213,45 +214,47 @@
 				<div class="column">
 					<div class="column1">
 						<label for="fname">FIRST NAME</label>
-						<input type="text" id="fname" name="firstname">
+						<input type="text" id="fname" name="firstname" required>
 					</div>
 					
 					<div class="column2">
 						<label for="lname">LAST NAME</label>
-						<input type="text" id="lname" name="lastname" >
+						<input type="text" id="lname" name="lastname" required>
 					</div>
 				</div>
 
 				<h4>ADDRESS (line 1)</h4>
-				<input type="text" id="address" name="address">
+				<input type="text" id="address" name="address" required>
 
 				<h4>ADDRESS (line 2)</h4>
-				<input type="text" id="address" name="address">
+				<input type="text" id="address" name="address" required>
 
 				<div class="column">
 					<div class="column1">
 						<label for="fname">CITY</label>
-						<input type="text" id="fname" name="firstname">
+						<input type="text" id="fname" name="firstname" required>
 					</div>
 					
 					<div class="column2">
 						<label for="lname">POSTAL CODE</label>
-						<input type="number" id="lname" name="lastname" >
+						<input type="number" id="lname" name="lastname" required>
 					</div>
 				</div>
 
 				<div class="column">
 					<div class="column1">
 						<label for="fname">PHONE NUMBER</label>
-						<input type="number" id="fname" name="firstname">
+						<input type="number" id="fname" name="firstname" required>
 					</div>
 					
 					<div class="column2">
 						<label for="lname">E-MAIL</label>
-						<input type="email" id="lname" name="lastname" >
+						<input type="email" id="lname" name="lastname" required>
 					</div>
 				</div>
 
+				<div id="botao"><button>SEND</button></div>
+			</form>
 			</div>
 			<div class="pisco">
 				<input type="checkbox" id="checkbox">
@@ -325,7 +328,6 @@
 		</div>
 	</section>
 
-	
 </body>
 
 </html>
